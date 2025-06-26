@@ -13,14 +13,12 @@
                 <p>Tags: <?php the_tags('',', ');?></p>
             <?php endif;?>
         </div>
+        <?php endif;?>
         
     </header>
-    <div class="container">
-        <?php the_content();?>
-        <?php wp_link_pages(array(
-            'before' => '<div class="page-links">' . __('Pages:'),
-            'after' => '</div>'
-        ));?>
+    <div class="content">
+        <?php the_excerpt();?>
+        
     </div>
 
 </article>
