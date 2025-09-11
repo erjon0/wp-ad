@@ -13,7 +13,7 @@
             <div class="img_container">
                 <img src="<?php echo get_template_directory_uri();?>/images/3.jpg" >
             </div>
-
+d
             <div id="overlay">
                 <div id="left_button" class="overlay_button" onclick="onLeftClick()">
                 <div id="right_button" class="overlay_button" onclick="onrightClick()">
