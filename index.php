@@ -1,5 +1,6 @@
 <?php get_header() ?>
 
+
     <div id="content" class="site-content">
         <div id="primary" class="content-area">
             <main id="main" class="site-main">
@@ -12,14 +13,17 @@
                             endwhile;
                         ?>
 
+
                         <div class="wp-devs-pagination">
                             <div class="pages new">
                                 <?php previous_posts_link("<< Newer posts");?>
                             </div>
 
+
                             <div class="pages old">
                                 <?php next_posts_link("Older posts>>");?>
                             </div>
+
 
                         </div>
                         <?php
@@ -29,11 +33,15 @@
                     </div>
                     <?php get_sidebar();?>
 
+
                 </div>
             </main>
 
+
         </div>
 
+
     </div>
+
 
 <?php get_footer() ?>
